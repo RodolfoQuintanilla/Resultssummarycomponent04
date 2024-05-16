@@ -1,0 +1,94 @@
+:root {
+  --Lightred: hsl(0, 100%, 67%);
+  --Orangeyyellow: hsl(39, 100%, 56%);
+  --Greenteal: hsl(166, 100%, 37%);
+  --Cobaltblue: hsl(234, 85%, 45%);
+  /* neutral */
+  --White: hsl(0, 0%, 100%);
+  --Paleblue: hsl(221, 100%, 96%);
+  --Lightlavender: hsl(241, 100%, 89%);
+  --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "HankenGrotesk-VariableFont_wght";
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  font-weight: 500, 700, 800;
+}
+
+body {
+  background-color: var(--White);
+  font-size: 18px;
+}
+
+section {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 500px;
+  height: 100%;
+  justify-content: center;
+  background-color: white;
+  border-radius: 18px;
+  flex-direction: row;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.178);
+  margin-top: 3rem;
+  margin-left: 35%;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+.num {
+  background-image: linear-gradient(
+    to top right,
+    hsl(241, 81%, 54%),
+    hsl(252, 100%, 67%)
+  );
+  border-radius: 18px;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.circle {
+  background: linear-gradient(
+    to top,
+    hsla(241, 72%, 46%, 0),
+    hsla(256, 72%, 46%, 1)
+  );
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding-top: 10%;
+  justify-content: center;
+}
+
+.data {
+  padding: 20px;
+  width: 200px;
+}
+
+.date__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(
+    to top right,
+    hsl(241, 81%, 54%),
+    hsl(252, 100%, 67%)
+  );
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
