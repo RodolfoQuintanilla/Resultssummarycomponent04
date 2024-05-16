@@ -30,7 +30,7 @@ body {
 
 section {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction:row-reverse;
   width: 500px;
   height: 360px;
   justify-content: center;
@@ -42,7 +42,7 @@ section {
   margin-left: 35%;
   margin-bottom: 2rem;
   justify-content: space-between;
-  gap: 0;
+
 }
 
 .num {
@@ -104,16 +104,16 @@ section {
   text-align: center;
 }
 
-.data {
-    margin-bottom: 2rem;
-}
 
+.date__box, .uno{
+margin-top: .8rem;
+}
 .date__box {
   display: flex;
   justify-content: space-between;
   padding: 4px;
   border-radius: 10px;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   align-items: baseline;
 }
 
@@ -123,6 +123,7 @@ section {
 
 .textos .uno{
     background-color:  hsla(0, 100%, 67%, 0.397);
+    
 }
 
 .uno{
@@ -143,10 +144,10 @@ section {
 }
 
 button {
-    margin-top: 30px;
+   margin-top: 50px;
   border: none;
   width: 100%;
-  height: 30px;
+  height: 40px;
   background: linear-gradient(
     to top right,
     hsl(241, 81%, 54%),
