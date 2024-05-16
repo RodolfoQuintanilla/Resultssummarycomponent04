@@ -25,6 +25,7 @@
 body {
   background-color: var(--White);
   font-size: 18px;
+  font-family: "HankenGrotesk-VariableFont_wght";
 }
 
 section {
@@ -41,7 +42,9 @@ section {
   margin-left: 35%;
   margin-bottom: 2rem;
   justify-content: space-between;
+  gap: 0;
 }
+
 .num {
   background-image: linear-gradient(
     to top right,
@@ -54,7 +57,10 @@ section {
   width: 250px;
   text-align: center;
 }
-
+.num__one {
+  font-weight: 500;
+  font-size: 17px;
+}
 .circle {
   background: linear-gradient(
     to top,
@@ -67,11 +73,34 @@ section {
   text-align: center;
   padding-top: 10%;
   justify-content: center;
+  margin-left: 25%;
+  margin-bottom: 1rem;
+}
+.num__big {
+  font-size: 40px;
+  font-weight: 700;
 }
 
+.num__smill {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.titulodos{
+    font-size: 20px;
+}
+
+.parrafo{
+    font-weight:500 ;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* segundo cuadro */
 .data {
   padding: 20px;
-  width: 200px;
+  width: 250px;
+  text-align: center;
 }
 
 .date__box {
